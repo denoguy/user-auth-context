@@ -1,0 +1,31 @@
+.login {
+  background-image: url("../backgroun.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.login__container {
+  background-color: #fafafa;
+  height: 200px;
+  width: 400px;
+  border-radius: 15px;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.login__image > img {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  padding: 10px;
+}
+
+h3 {
+  color: gray;
+}
