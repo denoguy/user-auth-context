@@ -19,7 +19,16 @@
   justify-content: space-around;
 }
 
-.login__image > img {
+button {
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.login__image > button > img {
   width: 60px;
   height: 60px;
   border-radius: 60px;
